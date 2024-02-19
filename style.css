@@ -1,0 +1,373 @@
+*
+{
+ margin: 0;
+ padding: 0;
+}
+html
+{
+ font-family: 'Poppins', sans-serif;
+}
+img
+{
+ width: 100%;
+}
+section
+{
+ width: 100%;
+ padding-bottom: 0;
+}
+header
+{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+}
+.navbar-web
+{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(58, 58, 58);
+}
+.navbar-web i
+{
+ font-size: 17px;
+}
+.navbar-web a
+{
+ padding: 13px;
+ padding-right: 25px;
+ font-size: 11px;
+ font-weight: 300;
+ color: rgb(211, 211, 211);
+ text-decoration: none;
+}
+.navbar-web a:hover
+{
+ color: white;
+}
+.navbar-mob
+{
+  display: none;
+}
+.navbar-mob #bar
+{
+  background-color: rgb(58, 58, 58);
+  border: none;
+  color: #d3d3d3;
+}
+.navbar-mob a
+{
+ margin: 0px;
+}
+.navbar-mob i
+{
+  color: #d3d3d3;
+}
+.second 
+{
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+ padding: 9px;
+ text-align: center;
+ font-size: 14px;
+}
+.second a
+{
+ margin-left: 5px;
+ text-decoration: none;
+ color: rgb(49, 143, 206);
+}
+.second a:hover
+{
+ text-decoration: underline;
+}
+.second a i
+{
+ margin-left: 5px;
+ font-size: 10px;
+}
+.phone
+{
+ width: 100%;
+ margin: 0;
+ right: 0;
+ padding: 0px;
+ padding-bottom: 1px;
+ background: black;
+ cursor: pointer;
+}
+.phone h1
+{
+ text-align: center;
+ padding-top: 43px;
+ font-size: 50px;
+ font-weight: 600;
+ color:#fff
+}
+.phone h4
+{
+ text-align: center;
+ padding-bottom: 5px;
+ font-size: 25px;
+ font-weight: 400;
+ color:#fff
+}
+.phone p
+{
+ text-align: center;
+ font-size: 18px;
+ color: rgb(211, 211, 211);;
+}
+.phone a
+{
+  margin-left: 25px;
+  color:  rgb(49, 143, 206);
+}
+.learn a
+{
+ text-decoration: none;
+}
+.learn a:hover
+{
+ text-decoration: underline;
+}
+.learn
+{
+ text-align: center;
+ padding-right: 22px;
+ font-size: 20px;
+}
+.learn a i
+{
+ padding-top: 20px;
+}
+.learn i
+{
+ margin-left: 5px;
+ font-size: 10px;
+}
+.phone img
+{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ height: 80%;
+}
+.phone-2
+{
+ width: 100%;
+ margin: 0;
+ right: 0;
+ padding: 0px;
+ padding-bottom: 1px;
+ background: rgb(255, 255, 255);
+ cursor: pointer;
+}
+.phone-2 h1
+{
+ padding-top: 43px;
+ text-align: center;
+ font-size: 50px;
+ font-weight: 600;
+ color: black;
+}
+.phone-2 h4
+{
+ text-align: center;
+ padding-bottom: 5px;
+ font-size: 25px;
+ font-weight: 400;
+ color: black;
+}
+.phone-2 p
+{
+ text-align: center;
+ font-size: 18px;
+ color: rgb(156, 152, 152);;
+}
+.phone-2 a
+{
+ margin-left: 25px;
+ color:  rgb(49, 143, 206);
+}
+.phone-2 img
+{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 48%;
+ height: 80%;
+}
+.phone-3
+{
+ width: 100%;
+ margin: 0;
+ right: 0;
+ padding: 0px;
+ padding-bottom: 1px;
+ background: black;
+ cursor: pointer;
+}
+.phone-3 h1
+{
+ padding-top: 43px;
+ text-align: center;
+ font-size: 50px;
+ font-weight: 600;
+ color: #fff;
+}
+.phone-3 h4
+{
+ text-align: center;
+ padding-bottom: 5px;
+ font-size: 25px;
+ font-weight: 400;
+ color: #fff;
+}
+.phone-3 p
+{
+ text-align: center;
+ font-size: 18px;
+ color: rgb(211, 211, 211);;
+}
+.phone-3 a
+{
+  margin-left: 25px;
+  color:  rgb(49, 143, 206);
+}
+.phone-3 img
+{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ height: 80%;
+}
+@media screen and (max-width:940px)
+{
+ .navbar-web
+ {
+  display: none;
+ }
+ .navbar-mob
+ {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  background-color: rgb(58, 58, 58);
+ }
+ .navbar-mob i
+ {
+  font-size: 22px;
+  padding: 15px;
+ }
+ .navbar-mob a
+{
+ font-size: 20px;
+ font-weight: 300;
+ color: rgb(211, 211, 211);
+ text-decoration: none;
+}
+.second 
+{
+ display: block;
+ justify-content: center;
+ width: 95%;
+ margin-top: 60px;
+ padding: 12px 9px;
+ text-align: center;
+ font-size: 14px;
+}
+.second a
+{
+  align-content: center;
+}
+.phone
+{
+  width: 100%;
+}
+.phone-3
+{
+  width: 100%;
+}
+.phone img
+{
+  width: 100%;
+}
+.phone-2 img
+{
+  width: 100%;
+}
+.phone-3 img
+{
+  width: 100%;
+}
+.phone h1
+{
+  font-size: 37px;
+}
+.phone-2 h1
+{
+  font-size: 37px;
+}
+.phone-3 h1
+{
+  font-size: 37px;
+}
+.phone h4
+{
+  font-size: 21px;
+}
+.phone-2 h4
+{
+  font-size: 21px;
+}
+.phone-3 h4
+{
+  font-size: 21px;
+}
+.phone p
+{
+  font-size: 17px;
+}
+.phone-2 p
+{
+  font-size: 17px;
+}
+.phone-3 p
+{
+  font-size: 17px;
+}
+.learn
+{
+  font-size: 18px;
+}
+}
+@media screen and (max-height:330px)
+{
+  .navbar-web
+  {
+    display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background-color: rgb(58, 58, 58);
+  }
+  .navbar-web a
+  {
+    padding: 10px;
+  }
+  .navbar-mob
+  {
+    display: none;
+  }
+  .second
+  {
+    margin-top: 34px;
+  }
+}
+
+
